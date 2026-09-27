@@ -1,5 +1,5 @@
 function reverseString(input: string): string{
-    const str= input.split();
+    const str= input.split("");
     let left=0;
     let right= str.length;
     while (left<right) {
